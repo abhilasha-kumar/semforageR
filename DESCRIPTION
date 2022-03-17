@@ -17,3 +17,5 @@ Depends:
 Imports: 
     tidyr,
     dplyr
+URL: https://github.com/abhilasha-kumar/semforageR
+BugReports: https://github.com/abhilasha-kumar/semforageR/issues
