@@ -19,9 +19,6 @@ troyer_switch <- function(responses) {
         switchVector <- append(switchVector, 0)
       }
       
-    }else{
-      # last two items are designated with a 2?
-      switchVector <- append(switchVector, 2)
     }
   }
   switchVector
