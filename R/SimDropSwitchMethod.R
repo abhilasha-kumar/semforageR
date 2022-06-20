@@ -4,7 +4,7 @@ sim_drop_switch <- function(responses, sims) {
   switchVector <- c(2) # first item designated with 2
   
   for (k in 2:length(responses)){
-    # for all except last two items, check whether the current and previous item are in the same category
+    # for all except last two items, check whether the similarity between items has dropped
     if (k<length(responses)-1){
       if ((sims[k+1]>sims[k]) & (sims[k-1]>sims[k])){
         # if current item is more similar to previous than next item and similarity increases in next two items
