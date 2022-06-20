@@ -25,5 +25,5 @@ multimodal_switch <- function(responses, sem_sim, phon_sim, alpha){
     }
   }
   
-  
+  switchVector
 }
